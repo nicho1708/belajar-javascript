@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Bertemakan Java script</title>
+
+    <!-- Tautan Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            padding-top: 60px; /* Sesuaikan dengan tinggi navbar */
+        }
+        .jumbotron {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Bootstrap Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Layanan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Konten Utama -->
+    <div class="container mt-5">
+        <div class="jumbotron">
+            <h1 class="display-4">Selamat datang di Website Bertemakan Javascript !</h1>
+            <p class="lead">Pelajari grid system, komponen-komponen, dan contoh penerapan Bootstrap.</p>
+            <hr class="my-4">
+            <p>Anda dapat menyesuaikan konten di sini sesuai kebutuhan Anda.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Mulai Belajar</a>
+        </div>
+
+        <!-- Contoh Bagian Konten Lainnya -->
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Pengertian Javascript</h2>
+                <p>Konten untuk fitur pertama.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>ciri ciri javascript</h2>
+                <p>Konten untuk fitur kedua.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Javascript Website. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <!-- Tautan Bootstrap JavaScript (diletakkan di bagian bawah agar tidak memperlambat loading halaman) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        let umur = 35;
+
+        if (umur >= 30) {
+            console.log("Umur Anda Sudah Lebih Dari Cukup");
+        } else if (umur >= 20) {
+            console.log("Umur Anda Cukup");
+        } else if (umur >= 15) {
+            console.log("Umur Anda Kurang");
+        } else {
+            console.log("Umur Anda Kurang");
+        }
+        </script>
+</body>
+</html>
